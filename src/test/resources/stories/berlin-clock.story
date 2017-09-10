@@ -44,5 +44,20 @@ RRRR
 OOOOOOOOOOO
 OOOO
 
+Scenario: Midnight
+When the time is 08:20:12
+Then the clock should look like
+Y
+ROOO
+RRRO
+YYRYOOOOOOO
+OOOO
 
-
+Scenario: Midnight
+When the time is 17:33:12
+Then the clock should look like
+Y
+RRRO
+RROO
+YYRYYROOOOO
+YYYO
